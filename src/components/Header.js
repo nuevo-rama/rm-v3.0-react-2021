@@ -2,12 +2,12 @@ import React, {useState} from 'react';
 
 
 function Header (props) {  //EL COMPONENTE RECIBE PROPS
-                                    //LAS PROPS LAS DEFINO EN APP
+                            //LAS PROPS LAS DEFINO EN APP
     
     return (
           <div >
             
-                    {props.navBar.map (nav => <a> {nav} </a>)}
+                    {props.navBar.map ((nav, i) => <a key = {nav + i}> {nav} </a>)}
                 
             
           </div>
