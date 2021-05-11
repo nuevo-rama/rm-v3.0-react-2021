@@ -1,4 +1,5 @@
 import './App.css';
+import Header from './components/Header';
 import ProductDetail from './components/ProductDetail';
 
 
@@ -6,7 +7,7 @@ import ProductDetail from './components/ProductDetail';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <Header navBar = {["INICIO", "CREÁ TU DISEÑO", "MODELOS", "OPCIONES"]} />
         
         <ProductDetail 
         title = "New Cap"
@@ -19,7 +20,7 @@ function App() {
         
         
         
-      </header>
+      
     </div>
   );
 }
