@@ -1,16 +1,23 @@
 import './App.css';
-import MainFrame from './components/MainFrame'; //IMPORTO EL COMPONENTE
-import MainFrameFull from './components/MainFrameFull'; //IMPORTO EL COMPONENTE
-import FrameProps from './components/FrameProps'; //IMPORTO EL COMPONENTE
+import ProductDetail from './components/ProductDetail';
+
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         
-        <MainFrame />
-        <MainFrameFull />
-        <FrameProps />
+        <ProductDetail 
+        title = "New Cap"
+        subtitle = "Regular Fit"
+        price = "00"
+        description = "Model: Cap"
+        descriptionFull = "Color: Pink / Grey"
+      
+        />
+        
+        
         
       </header>
     </div>
