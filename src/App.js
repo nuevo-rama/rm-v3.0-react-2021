@@ -20,12 +20,18 @@ function App() {
         image_2 ="image_1_cap.jpg"
         image_3 ="image_1_cap.jpg"
         image_4 ="image_1_cap.jpg"
+        image_special ="image_png_black.png"
       
         />
         
       <ButtonChange
-      inicialImage= {'image_0_cap.jpg'}
-      changeImage= {'image_1_cap.jpg'}
+      inicialImage= {'image_png_0.png'}
+      colorUpGreen= {'colorUpGreen.png'}
+      colorUpBlue= {'colorUpBlue.png'}
+      colorDownGreen= {'colorDownGreen.png'}
+      colorDownBlue= {'colorDownBlue.png'}
+      colorThreadYellow= {'colorThreadYellow.png'}
+      colorThreadMagenta= {'colorThreadMagenta.png'}
       /> 
         
       

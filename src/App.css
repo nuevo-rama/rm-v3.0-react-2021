@@ -34,3 +34,15 @@
   width: 100px;
   height: 100px;
 }
+
+.prueba button {
+  margin: 20px;
+  display: block;
+  position: relative;
+}
+
+img.positionSuperpuesta {
+  border: 1px solid red;
+  margin: 20px;
+  position: absolute;
+}
