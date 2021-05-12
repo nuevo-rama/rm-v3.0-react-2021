@@ -1,10 +1,10 @@
-import React from 'react';
+import React, {Component} from 'react'; //COMPONENT PARA CONVERTIR A STATEFULL
 import '../styleComponents/ProductDetail.css';
 
 
-function ProductDetail (props) {  //EL COMPONENTE RECIBE PROPS
-                                    //LAS PROPS LAS DEFINO EN APP
-    
+class ProductDetailStateFull extends Component {  //EL COMPONENTE RECIBE PROPS
+        
+    render() {                         //ENVUELVO TODO EN RENDER
     return (
           <div className="ProductDetail">
               <section className="ColumnLeft">
@@ -33,7 +33,7 @@ function ProductDetail (props) {  //EL COMPONENTE RECIBE PROPS
           </div>
       )
     
-  }
+  }}
 
   ProductDetail.defaultProps = {
 

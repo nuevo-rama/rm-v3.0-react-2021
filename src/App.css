@@ -28,3 +28,9 @@
   flex-direction: column;
   width: 35vw;
 }
+
+.ImgNull {
+  background-color: grey;
+  width: 100px;
+  height: 100px;
+}
